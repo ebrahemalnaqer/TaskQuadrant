@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DelegateVC" customModule="FoucsApp_ToDo_" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="KXl-bR-Zvu" id="lzH-z6-SbL"/>
+                <outlet property="view" destination="6Zk-Is-dA8" id="mAp-cc-PqN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6Zk-Is-dA8">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Task " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ul2-KO-4L5">
+                    <rect key="frame" x="20" y="79" width="134.66666666666666" height="29"/>
+                    <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="25"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3O-CC-kur">
+                    <rect key="frame" x="341" y="77" width="32" height="29.666666666666671"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="plus" catalog="system">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="addBtn:" destination="-1" eventType="touchUpInside" id="Skx-Ye-QCS"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="KXl-bR-Zvu">
+                    <rect key="frame" x="0.0" y="128" width="393" height="724"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="hPe-oz-qUB"/>
+            <color key="backgroundColor" red="0.64367878440000004" green="0.76741021870000004" blue="0.83821570869999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="KXl-bR-Zvu" secondAttribute="bottom" id="8bK-5m-4EN"/>
+                <constraint firstItem="ul2-KO-4L5" firstAttribute="top" secondItem="hPe-oz-qUB" secondAttribute="top" constant="20" id="HVV-Fl-SJU"/>
+                <constraint firstItem="ul2-KO-4L5" firstAttribute="leading" secondItem="hPe-oz-qUB" secondAttribute="leading" constant="20" id="UM6-CY-8u7"/>
+                <constraint firstItem="KXl-bR-Zvu" firstAttribute="leading" secondItem="hPe-oz-qUB" secondAttribute="leading" id="Zpn-Pj-jnh"/>
+                <constraint firstItem="F3O-CC-kur" firstAttribute="top" secondItem="hPe-oz-qUB" secondAttribute="top" constant="18" id="aBW-hl-5Fv"/>
+                <constraint firstItem="hPe-oz-qUB" firstAttribute="trailing" secondItem="F3O-CC-kur" secondAttribute="trailing" constant="20" id="jQ1-WL-DJn"/>
+                <constraint firstItem="KXl-bR-Zvu" firstAttribute="top" secondItem="ul2-KO-4L5" secondAttribute="bottom" constant="20" id="qu9-VJ-X4l"/>
+                <constraint firstItem="KXl-bR-Zvu" firstAttribute="trailing" secondItem="hPe-oz-qUB" secondAttribute="trailing" id="sJC-9s-S4N"/>
+            </constraints>
+            <point key="canvasLocation" x="-1098.4732824427481" y="76.760563380281695"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="plus" catalog="system" width="128" height="113"/>
+    </resources>
+</document>
