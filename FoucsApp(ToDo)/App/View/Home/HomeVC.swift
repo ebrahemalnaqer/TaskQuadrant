@@ -117,6 +117,3 @@ class HomeVC: UIViewController {
          return calendar.isDate(self, inSameDayAs: date)
      }
  }
-    
-    
-
