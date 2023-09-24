@@ -9,6 +9,7 @@ This repository contains the source code for a To-Do application called "TaskQua
 * **Task Editing:** Tasks can be edited to update their names and descriptions.
 * **Date Selection:** When adding tasks, users can select a date for each task.
 * **User Interface Customization:** The app features a clean and intuitive user interface with custom cell designs.
+* **Scoring System (Streaks):** The app includes a scoring system that tracks the user's daily activity.
 
 ## Technologies Used:
 * **UIKit:** The app's user interface is built using UIKit, providing a native iOS experience.
@@ -21,12 +22,15 @@ This repository contains the source code for a To-Do application called "TaskQua
 3. Build and run the app on a simulator or physical device.
 
 ## Screenshots:
-![Simulator Screen Shot - iPhone 11 Pro Max - 2023-09-24 at 20 01 29](https://github.com/ebrahemalnaqer/TaskQuadrant/assets/104450972/4f2605b2-bd96-414c-af2a-7fe36ee2c8db)
-![Simulator Screen Shot - iPhone 11 Pro Max - 2023-09-24 at 20 01 41](https://github.com/ebrahemalnaqer/TaskQuadrant/assets/104450972/65eebef3-407c-4706-a055-eb9da9254aa1)
-![Simulator Screen Shot - iPhone 11 Pro Max - 2023-09-24 at 20 01 45](https://github.com/ebrahemalnaqer/TaskQuadrant/assets/104450972/9537b72d-ffb7-48eb-9891-18b0e575a9f6)
-![Simulator Screen Shot - iPhone 11 Pro Max - 2023-09-24 at 20 02 17](https://github.com/ebrahemalnaqer/TaskQuadrant/assets/104450972/b1f094b0-2aa0-4a3a-884f-b9957b534ef9)
-![Simulator Screen Shot - iPhone 11 Pro Max - 2023-09-24 at 20 02 38](https://github.com/ebrahemalnaqer/TaskQuadrant/assets/104450972/315c772a-3d55-4be6-b79f-8284442bba73)
-![Simulator Screen Shot - iPhone 11 Pro Max - 2023-09-24 at 20 03 02](https://github.com/ebrahemalnaqer/TaskQuadrant/assets/104450972/8451af58-ad12-4352-9f2c-d3c6e1748889)
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/ebrahemalnaqer/TaskQuadrant/assets/104450972/4f2605b2-bd96-414c-af2a-7fe36ee2c8db" alt="Screenshot 1" width="200"/>
+    <img src="https://github.com/ebrahemalnaqer/TaskQuadrant/assets/104450972/65eebef3-407c-4706-a055-eb9da9254aa1" alt="Screenshot 2" width="200"/>
+    <img src="https://github.com/ebrahemalnaqer/TaskQuadrant/assets/104450972/9537b72d-ffb7-48eb-9891-18b0e575a9f6" alt="Screenshot 3" width="200"/>
+    <img src="https://github.com/ebrahemalnaqer/TaskQuadrant/assets/104450972/b1f094b0-2aa0-4a3a-884f-b9957b534ef9" alt="Screenshot 4" width="200"/>
+    <img src="https://github.com/ebrahemalnaqer/TaskQuadrant/assets/104450972/315c772a-3d55-4be6-b79f-8284442bba73" alt="Screenshot 5" width="200"/>
+    <img src="https://github.com/ebrahemalnaqer/TaskQuadrant/assets/104450972/8451af58-ad12-4352-9f2c-d3c6e1748889" alt="Screenshot 6" width="200"/>
+</div>
 
 
 
